@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<LinearLayout
+	    xmlns:android="http://schemas.android.com/apk/res/android"
+	   	android:orientation="vertical" 
+    	android:layout_width="fill_parent" 
+    	android:layout_height="fill_parent"
+		android:background="@drawable/front1"
+    >
+<LinearLayout
+	android:id="@+id/adLayout" 
+	android:layout_width="fill_parent" 
+	android:layout_height="wrap_content"
+	android:orientation="horizontal"/>
+<com.nannansea.apk.Laugh4EveryDay.AutoScrollTextView
+    android:id="@+id/scrolltext"
+    android:layout_height="wrap_content"
+    android:layout_width="fill_parent"
+    android:inputType="text"
+    android:background="@drawable/flipp_bg"
+    android:textSize="20dp">
+</com.nannansea.apk.Laugh4EveryDay.AutoScrollTextView>
+<TabHost xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:id="@+id/tabhost"
+    android:layout_width="fill_parent" 
+    android:layout_height="fill_parent"> 
+    <LinearLayout
+	    xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:orientation="vertical" 
+    	android:layout_width="fill_parent" 
+    	android:layout_height="fill_parent">  
+	    <FrameLayout
+    		android:id="@android:id/tabcontent"
+    		android:layout_weight="1.0"
+    		android:layout_width="fill_parent" 
+    		android:layout_height="fill_parent"
+    	> 
+    		<include layout="@layout/custom1"/>
+    		<include layout="@layout/custom2"/>
+			<include layout="@layout/custom3"/>
+		</FrameLayout> 
+		<TabWidget
+    		android:id="@android:id/tabs" 
+    		android:layout_width="fill_parent" 
+    		android:layout_height="40dp"
+       	/>
+	</LinearLayout>
+</TabHost>
+</LinearLayout>
+

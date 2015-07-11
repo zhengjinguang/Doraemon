@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"	
+	android:background="@drawable/hosttabselector"
+	android:orientation="vertical"
+	android:id="@+id/ll" 
+	android:layout_height="wrap_content"
+    android:layout_width="wrap_content"
+    android:gravity="center" 
+	>
+	<com.nannansea.apk.Laugh4EveryDay.GifView
+        android:id="@+id/gif1" 
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:enabled="false" 
+        />
+	<TextView
+		android:id="@+id/text1"
+		android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="开心一笑"
+        android:textColor="@drawable/colorselector"
+	/>
+</LinearLayout>

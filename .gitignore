@@ -1,0 +1,14 @@
+.gradle/
+.idea/
+out/
+obj/
+bin/
+gen/
+build/
+local.properties
+.settings
+*.iml
+.classpath
+.project
+.DS_Store
+gradle-wrapper.properties
